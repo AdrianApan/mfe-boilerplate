@@ -1,0 +1,10 @@
+{
+  "name": "boilerplate",
+  "exposes": {
+    "./App": "./src/App"
+  },
+  "remotes": {
+    "foo": "foo@http://localhost:FOO_REMOTE_PORT_NUMBER/remoteEntry.js",
+    "bar": "bar@http://localhost:BAR_REMOTE_PORT_NUMBER/remoteEntry.js"
+  }
+}
