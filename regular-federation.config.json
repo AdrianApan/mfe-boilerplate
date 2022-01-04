@@ -1,0 +1,6 @@
+{
+  "name": "boilerplate",
+  "exposes": {
+    "./App": "./src/App"
+  }
+}
