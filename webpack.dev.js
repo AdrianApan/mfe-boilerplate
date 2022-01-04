@@ -16,12 +16,12 @@ module.exports = merge(common, {
     static: {
       directory: path.join(__dirname, 'dist'),
     },
-    port: 8004,
+    port: 8000,
     historyApiFallback: true,
   },
   plugins: [
     new MFLiveReloadPlugin({
-      port: 8004,
+      port: 8000,
       container: federationConfig.name,
       standalone: false,
     }),

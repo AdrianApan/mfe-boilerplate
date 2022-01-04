@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "build": "webpack --config webpack.prod.js",
-    "serve": "cd dist && PORT=8004 npx serve",
+    "serve": "cd dist && PORT=8000 npx serve",
     "start": "webpack-dev-server --mode development --live-reload --config webpack.dev.js",
     "clean": "rm -rf dist",
     "test": "jest --maxWorkers 2 --no-cache --passWithNoTests",
